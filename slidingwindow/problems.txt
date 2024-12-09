@@ -1,0 +1,33 @@
+sliding window problems:- 
+
+https://leetcode.com/problems/max-consecutive-ones-iii/description/
+https://leetcode.com/problems/longest-substring-without-repeating-characters/description/ - solve using ascii approach
+https://leetcode.com/problems/binary-subarrays-with-sum/description/
+https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/ 
+https://leetcode.com/problems/fruit-into-baskets/
+https://leetcode.com/problems/find-all-anagrams-in-a-string/description/
+https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/
+https://leetcode.com/problems/longest-nice-substring/description/
+
+Given a string you need to print longest possible substring that has exactly M unique characters. If there is more than one substring of longest possible length, then print any one of them.
+Input: Str = “aabbcc”, k = 1
+Output: 2
+Explanation: Max substring can be any one from {“aa” , “bb” , “cc”}.
+
+
+Input: Str = “aabbcc”, k = 2
+Output: 4
+Explanation: Max substring can be any one from {“aabb” , “bbcc”}.
+
+
+Input: Str = “aabbcc”, k = 3
+Output: 6
+Explanation: 
+There are substrings with exactly 3 unique characters
+{“aabbcc” , “abbcc” , “aabbc” , “abbc” }
+Max is “aabbcc” with length 6.
+
+
+Input: Str = “aaabbb”, k = 3
+Output: Not enough unique characters
+Explanation: There are only two unique characters, thus show error message.
